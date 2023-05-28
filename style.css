@@ -1,0 +1,169 @@
+.caja-cuerpo{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400 ;
+    background-color: black;
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.caja-encabezado {
+    
+
+
+
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 0%;
+    padding: 7px;
+    width: 1330px;
+    
+
+}
+
+.menu-navegacion {
+
+
+    
+}
+    
+.lista-navegacion {
+  
+
+}
+
+
+.presentacion-datos{
+color: white;
+}
+
+.nombre-color {
+    color:yellow;
+}
+
+.titulos-navegacion {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+
+}
+#entre-comillas {
+    font-weight: bolder;
+    text-align: center;
+   max-height: 50px;
+}
+.container-cita {
+    background-color:gray;
+    color: white;
+    text-align: center;
+}
+#cita-autor {
+    font-weight: 900;
+}
+
+
+.section-contactame {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactame-conteiner {
+    width: 50%;
+    height: 400px;
+    margin: 70px, 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#div-redes {
+    text-align: left;
+    display: block;
+
+}
+
+
+#contactame-redes{
+    color: black;
+    border-radius: 0%;
+    padding: 0;
+    margin: 0;}
+
+
+.contactame-form,.contactame-conteiner {
+    width: 50%;
+
+    
+
+}
+
+#form-Nombre-apellido-email {
+    width: 300PX;
+    margin: 30px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-navegacion {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+.zocalo-final {
+    background-color:gray;
+    margin:0;
+    padding: 0;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    display: inline block;
+}
+
+redes-sociales{
+    color: black;
+    
+   
+   }
+
+.fa-brands {
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 15px;
+    background-color: yellow;}
+
+.fa-solid{
+
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 15px;
+    background-color: yellow;}
+
+
+
+
