@@ -6,53 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
     <link rel="stylesheet" href="style.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/4bb9d2ad9b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&            family=Source+C  ode+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4bb9d2ad9b.js" crossorigin="anonymous"></script>
     
 
 </head>
-<body class="caja-cuerpo">
-    <header class="caja-encabezado">
-    
-        <nav class="menu-navegacion">
-        <ul class="lista-navegacion">
-
-            <li><a href="#hola">HOLA</a></li>
-            <li><a href="#conocimientos">CONOCIMIENTOS</a>
-            <li><a href="#proyectos">PROYECTOS</a></li>
-            <li><a href="#contacto">CONTACTO</a></li>
-        
-        </ul>
-
-
-    
+<body>
+    <header>
+    <nav>
+        <a href="#" class="button-nav">HOLA</a>
+      
+        <a href="#"class="button-nav">CONOCIMIENTOS</a>
+     
+        <a href="#"class="button-nav" >PROYECTOS</a>
+   
+        <a href="#"class="boton-contacto" >CONTACTO</a>
+       
+                
     </nav> 
     </header>
 
+    <section class="conteiner-datos">
+        <h2><b>Hola! soy</b><h2> <br>
+            <h1 >Maria Escobar</h1> 
+                <p class="titulo"> Desarroladora WEB</p>
+    </section>
 
+    <section>
+            <div class="conteiner-btn">
+                <a href="#" class="btn-proyecto">
+                LO QUE HAGO</a> 
+            </div>
+    </section>
 
-    <section class="presentacion-datos">
-        <p><b>Hola! soy</b></p>
-        <h1 class="nombre-color">Maria Escobar</h1> 
-        <p> Desarroladora WEB</p>
-
-        <div>
-            <img src="undraw_online_resume_re_ru7s.svg" alt="mujer desarrollando">
-
+    <section>
+        <div class="imagen">
+                <img src="file:///C:/Users/Bangho/Downloads/undraw_online_art_re_f1pk%20(1).svg"
+                alt="mujer-arte" >
         </div>
-        
+    </section>
 
-        <section>
-            <article>
+    <section>
+            <div class="class">
                 <h2 class="titulos-navegacion">Mis conocimientos</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur unde dolore dignissimos facilis sint natus earum quas maiores obcaecati. Cum?
 
                 </p>
-            </article>
-        </section>
+            </div>  
+    </section>
+
+    <section class="conteiner-conocimientos">
+            <div class="conteiner-borde-html ">
+                <i class="fa-brands fa-html5 img-html" ></i>   
+                    <p class="text-conocimientos"> HTML 5</p>
+            </div>
+            <div class="conteiner-borde-css "  >
+                <i class="fa-brands fa-css3-alt img-css " ></i>
+                    <p class= "text-conocimientos">CSS 3</p>
+            </div>
+            <div class="conteiner-borde-sass ">
+                <i class="fa-brands fa-sass img-sass "></i>
+                    <p class="text-conocimientos"> Sass </p>
+            </div>
+            <div class="conteiner-bord-js">
+                <i class="fa-brands fa-js img-js"></i>
+                    <p class="text-conocimientos" > JavaScrip</p>
+            </div>
+            <div class="conteiner-borde-react">
+                <i class="fa-brands fa-react  img-react"></i>
+                    <p class="text-conocimientos">React</p>
+            </div>
+            <div class="conteiner-borde-git ">
+                <i class="fa-brands fa-git-alt img-git "></i>
+                <p class="text-conocimientos">GIT</p>
+            </div>
+        </section >           
+
+        
         <div class="container-cita">
             <p id="entre-comillas">"</p>
             <q>Elige ser un corazón valiente, no una espectadora silenciosa</q>
@@ -67,50 +99,72 @@
             </article>
 
         </section>
+<section class="conteiner-proyectos">
+        <div class="card-portfolio">
+            <img class="img-portfolio" src="file:///C:/Users/Bangho/Downloads/undraw_portfolio_feedback_6r17.svg"  >
+                <p>Portfolio</p>
+        </div>
+        <div class="card-memes">
+            <img src= "file:///C:/Users/Bangho/Downloads/undraw_remote_design_team_re_urdx.svg" class="img-memes" alt=" Generador de memes">
+                <p>Generador de memes</p>
+        </div>
+        <div class="card-match">
+            <img class= "img-match" src="file:///C:/Users/Bangho/Downloads/undraw_game_world_re_e44j.svg"  
+        alt="Match 3">
+                <p>Match 3</p>     
+        <div >
+        <div class="card-gastos">
+            <img class="img-gastos" src="file:///C:/Users/Bangho/Downloads/undraw_crypto_flowers_re_dyqo.svg" 
+       alt="controlador-gastos">
+                <p>Controlador de gastos</p> 
+        </div>       
+        <div class="card-calendario">
+            <img class="img-calendario" src="file:///C:/Users/Bangho/Downloads/undraw_events_re_98ue.svg"  alt="Administrador de reuniones">
+                <p>Administrador de reuniones</p>
+        </div>  
+        <div class="card-app" >
+            <img  class= "img-app"src="file:///C:/Users/Bangho/Downloads/undraw_reminder_re_fe15.svg" 
+            alt="Todo app">
+                <p>Todo app</p>
+        </div>
+            <div class="card-peliculas">
+            <img class= "img-peliculas" src= "file:///C:/Users/Bangho/Downloads/undraw_netflix_q-00-o%20(1).svg"
+           alt="buscador-peliculas">
+                <p>Buscador peliculas</p>
+            </div>
+</section>
 
+    <div class="seccion-contactame">
+        <h2>Contactame</h2>
+        <p class="parrafo-contactame">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro blanditiis perferendis dolorem molestiae error eos adipisci nemo dolore voluptate saepe placeat quidem ipsam sint animi, quaerat est ullam corrupti magnam?</p>
+    </div>  
     
-
-    <section class="section-contactame">
-        <div class="contactame-conteiner">
-            <div class="contactame-redes"></div>
-            <h2 class="titulos-navegacion">Contactame</h2>
-            
-    <div id="div-redes">   
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro blanditiis perferendis dolorem molestiae error eos adipisci nemo dolore voluptate saepe placeat quidem ipsam sint animi, quaerat est ullam corrupti magnam?</p>
-
-    </div>     
-    <section id="contactame-redes">
-
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-github-alt"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-solid fa-envelope"></i>
-
-    </section>
-
-        <div class="contactame-form"></div>
-
-            <h2 class="titulos-navegacion">Escribime</h2>
-    </div>
-
-
-
-
-
-
     
-    </section>
-
-
-
-
-
-
-        </section>
+<section>    
+    <ul class="redes">
+        <li class="contacto-redes">
+            <i class="fa-brands fa-twitter"></i>
+            <p>@mariaescobar</p>
+        </li>
+        <li>
+            <i class="fa-brands fa-github"></i>
+            <p>MarEsx</p>
+        </li>
+        <li>
+            <i class="fa-brands fa-linkedin"></i>
+            <p>mariaescobar</p>
+        </li>    
+        <li>
+            <i class="fa-solid fa-envelope"></i>
+            <p>marescobar_591@gmail.com</p>
+        </li>
+    </ul>
+</section>
+<section class="conteiner-formulario">
+        <h2 class="titulos-navegacion">Escribime</h2>
     
-    <div>
-
-
+        <div class="contactame-form">
+</div>
     <form id="form-Nombre-apellido-email" >
         <label for="input-name">Nombre*</label>
         <input type="text" id="input-name" placeholder="Maria" required>
@@ -119,73 +173,43 @@
         <label for="input-lastname"> Apellido*</label>
         <input type="text" id="input-lastname" placeholder="Escobar"required>
 
-    
         <label for="input-Email">Email*</label>
         <input type="text" id="input-Email" placeholder="maria123@gmail.com"required>
 
-    </label>
+        </label>
         <label for="input-mensaje"> Mensaje*</label>
         <input type="tex" id="input-mensaje" placeholder="Escriba un mensaje aqui"required>
 
-    <label>
+        <label>
         <label class="label-submit" for="label-submit">
-         <input id="input-submit" type= submit>
+        <input id="input-submit" type = submit  class="btn-enviar">
         </label>
     </form> 
     
     
-</div>
-
+</section>
 
     
-<footer class="zocalo-final">
-    <nav >
-        <ul >
-
-            <li><a name="hola">HOLA</a></li>
-            <li><a href="conocimientos">CONOCIMIENTOS</a>
-            <li><a href="proyectos">PROYECTOS</a></li>
-            <li><a href="contacto">CONTACTO</a></li>
-        
-        </ul>
-
-  
-  <nav id="menu-navegacion">
-       <ul>
-            <li>
-                <a name="hola">
-                   HOLA
-                </a>
-            </li>
-
-           
-            <li>
-                <a name="conocimientos">
-                   CONOCIMIENTOS
-                </a>
-            </li>
-
-            <li>
-                <a name="proyectos">
-                   PROYECTOS
-                </a>
-            </li>
-        
-
-            <li>
-                <a name="contacto">
-                   CONTACTO
-                </a>
-            </li> 
-       </ul>
-  </nav>
+<footer>
 
 
 
 
         
     <div>
-    <ul>
+        <nav>
+            
+            <a href="#" class="footer-enlace button-fotter">HOLA</a>
+
+            <a href="#"class="footer-enlace button-fotter">PROYECTOS</a>
+       
+            <a href="#"class="footer-enlace button-fotter">CONOCIMIENTOS</a>
+           
+            <a href="#"class="footer-enlace button-fotter">CONTACTO</a>
+          
+
+        </nav> 
+    <ul class="conteiner-redes">
         <li>
             <a href="twitter"> 
                   </a>
@@ -205,18 +229,18 @@
     
     
     </ul>
+    </div>
     
     <div class="redes-sociales">
         
             <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-github-alt"></i>
+            <i class="fa-brands fa-github"></i>
             <i class="fa-brands fa-linkedin"></i>
             <i class="fa-solid fa-envelope"></i>
     </div>
-        
-    
-        <p> Hecho con ❤️ por Maria Escobar</p>
-    </div>
+    <section class="autor">
+    <p> Hecho con ❤️ por Maria Escobar</p>
+    </section>   
 </footer>
 
 

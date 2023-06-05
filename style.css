@@ -1,28 +1,90 @@
-.caja-cuerpo{
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    color: black;
     margin: 0;
     padding: 0;
     font-family:'Montserrat', sans-serif;
-    font-weight:400 ;
-    background-color: black;
-    box-shadow: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
-}
-
-.caja-encabezado {
+    font-weight:300 ;
+    background-color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
     
 
+}
+h1{
+    color: #995CEF;
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
 
-
+.titulo{
+    padding: 20px;
 }
 
 header{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    top: 0%;
-    padding: 7px;
-    width: 1330px;
-    
+    display: flex;
+    background-color:#FFFFFF;
+    color: black; 
+    justify-content: flex-end;
+    padding: 5px 12px;
+}
+header nav{
+    display: flex;
+    text-align: center; 
+    justify-content: space-between;
+}
 
+.barra-nav :hover {
+    color: blueviolet;
+
+}
+
+.barra-nav :active{
+    background-color: black;
+}
+
+.conteiner-btn{
+    display: flex;
+    
+}
+
+.button-nav{
+    border-radius: 10px;
+    background-color: transparent;
+    transition: 2s;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;}
+
+.button-nav:hover{
+    color:  rgb(149, 99, 196);
+
+}
+.button-nav:focus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 0,2s;
+    border: 1px solid blueviolet;
+}
+
+
+.boton-contacto{
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 5px 10px;
+    color:#FFFFFF ;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.boton-contacto:hover{
+    background-color: rgb(149, 99, 196);
+    color: #FFFFFF;
 }
 
 .menu-navegacion {
@@ -32,33 +94,283 @@ header{
 }
     
 .lista-navegacion {
-  
+    display: inline-block;
 
 }
 
 
 .presentacion-datos{
-color: white;
+color: black;
 }
 
 .nombre-color {
-    color:yellow;
+    color:#fffe63;
+}
+
+.imagen-conocimientos{
+    width: 200px;
+    height: 200px;
+}
+
+.btn-proyecto {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 150px;
+    padding: 5px 10px;
+    color:#FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;    
+}
+
+.btn-proyecto:hover{
+    background-color: rgb(149, 99, 196);
+    color: #FFFFFF;
+}
+    
+    
+.text-conocimientos{
+    color: black;
+}
+
+.img-html{
+    font-size: 100px;
+    color:#E54D26 ;
+    text-align: center;
+}
+.img-css{
+    font-size: 100px;
+    color: #3D8FC6;
+
+}
+.img-sass{
+    font-size: 100px;
+    color:#CC6699 ;
+
+}
+.img-js{
+    font-size: 100px;
+    color:#F0DB4F ;
+
+}
+.img-react{
+    font-size: 100px;
+    color:#6ADCFB ;
+
+}
+.img-git{
+    font-size: 100px;
+    color: #F34F29;
+
+}
+
+.text-conocimientos
+{
+    font-weight: 800;
+
+
+}
+
+.conteiner-borde-html {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #995CEF;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    
+}
+
+.conteiner-borde-css {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #995CEF;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+
+
+}
+.conteiner-borde-sass{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #995CEF ;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+
+}
+.conteiner-bord-js {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #995CEF;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+
+}
+.conteiner-borde-react {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #995CEF;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+}
+.conteiner-borde-git { 
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #995CEF;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+img{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    text-align: right;
 }
 
 .titulos-navegacion {
-    color: white;
+    color:black;
     font-weight: 900;
+    text-align: center;
+}
+
+.coteiner-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-portfolio{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: 5px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
     text-align: center;
 
 }
+.img-portfolio{
+    width: 250px;
+    height: 200px;
+}
+.card-memes{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
+    text-align: center;
+
+}
+.img-memes{
+    width: 250px;
+    height: 200px;
+}
+.card-match{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: 5px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
+    text-align: center;
+
+}       
+.img-match{
+    width: 250px;
+    height: 200px;
+}
+
+.card-gastos{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: 5px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
+    text-align: center;
+}       
+.img-gastos{
+    width: 250px;
+    height: 200px;
+}
+.card-calendario{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: 5px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
+    text-align: center;
+}       
+.img-calendario{
+    width: 250px;
+    height: 200px;
+}
+.card-app{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: 5px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
+    text-align: center;
+}       
+.img-app{
+    width: 250px;
+    height: 200px;
+}
+.card-peliculas{
+    display: inline-block;
+    border: 1px solid #995CEF;
+    margin: 5px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px ;
+    text-align: center;
+
+}       
+.img-peliculas{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+
 #entre-comillas {
     font-weight: bolder;
     text-align: center;
-   max-height: 50px;
+    max-height: 50px;
 }
 .container-cita {
-    background-color:gray;
-    color: white;
+    background-color:black;
+    color: #FFFFFF;
     text-align: center;
 }
 #cita-autor {
@@ -66,10 +378,14 @@ color: white;
 }
 
 
-.section-contactame {
-    display: flex;
+.seccion-contactame {
+    display: inline-block;
     justify-content: center;
     
+}
+
+.parrafo-contactame{
+    display: inline-block;
 }
 
 .contactame-conteiner {
@@ -80,13 +396,25 @@ color: white;
     justify-content: space-around;
 }
 
-#div-redes {
-    text-align: left;
+.conteiner-contactame {
     display: block;
 
 }
 
+.redes{
+ list-style: none;
+ display: inline;
+}
 
+#redes-media{
+    text-align: justify;
+    font-size: 0;
+    border-radius: 0%;
+    padding: 0;
+    margin: 0;
+    color: black;
+   list-style: none;
+}
 #contactame-redes{
     color: black;
     border-radius: 0%;
@@ -96,9 +424,6 @@ color: white;
 
 .contactame-form,.contactame-conteiner {
     width: 50%;
-
-    
-
 }
 
 #form-Nombre-apellido-email {
@@ -111,59 +436,132 @@ color: white;
     border: 1px solid black;
 
 }
+btn-enviar{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 85px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center; 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#menu-navegacion {
-    text-align: center;
-    margin: auto;
-    width: 80%;
 }
 
-
-.zocalo-final {
-    background-color:gray;
-    margin:0;
-    padding: 0;
-    color: white;
-    font-weight: 200;
-    text-align: center;
+footer {
+    background-color:blueviolet;
+    margin-bottom:0;
+    padding: 50px 380px;
+    color:#FFFFFF ;
     display: inline block;
+    text-align: center;
+    }
+.footer-enlace{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
 }
 
-redes-sociales{
-    color: black;
+
+
+.fa-twitter:hover {
+        border: 1px solid #FFFFFF; 
+        background-color: blueviolet;
+        color: #FFFFFF;
+}   
+.button-nav:hover{
+    color:  rgb(149, 99, 196);
+
+}
+.conteiner-redes{
+    list-style: none;
+}
+.button-fotter{
+    background-color: transparent;
+    color: #FFFFFF;
     
-   
-   }
+}
+.button-fotter :hover{
+    background-color: blueviolet;
+}
+.button-fotter :focus {
+    background-color: blueviolet;
+    box-shadow: #FFFFFF;
+}
 
-.fa-brands {
+.fa-twitter {
     font-size: 20px;
     border-radius: 100px;
-    padding: 20px;
-    margin: 15px;
-    background-color: yellow;}
+    padding: 10px;
+    margin: 5px;
+    background-color:#FFFFFF;
+    color: blueviolet; 
 
-.fa-solid{
+}
+.fa-twitter:hover {
+    border: 0.7px solid #FFFFFF; 
+    background-color: blueviolet;
+    color: #FFFFFF;
 
+}
+
+.fa-github {
     font-size: 20px;
     border-radius: 100px;
-    padding: 20px;
-    margin: 15px;
-    background-color: yellow;}
+    padding: 10px;
+    margin: 5px;
+    background-color:#FFFFFF;
+    color: blueviolet;    
+}
+.fa-github:hover {
+    border:  0.7px solid #FFFFFF; 
+    background-color: blueviolet;
+    color: #FFFFFF;
+
+}
+
+.fa-linkedin {
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color:#FFFFFF;
+    color: blueviolet;
+}
+.fa-linkedin:hover {
+    border:  0.7px solid #FFFFFF;
+    background-color: blueviolet;
+    color: #FFFFFF;
+
+}
+
+.fa-envelope {
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color:#FFFFFF;
+    color: blueviolet;
+    
+}
+.fa-envelope:hover {
+    border:  0.7px solid #FFFFFF;
+    background-color: blueviolet;
+    color: #FFFFFF;
+
+}
 
 
 
-
+.li contacto-redes:hover i{
+    background-color: #995CEF;
+}
+li contacto-redes:hover a{
+    background-color: #995CEF;
+}
+.autor{
+    margin-top: 20px;
+    padding: 30px;
+}
